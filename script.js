@@ -2,20 +2,20 @@
 // CTRL + Forward Slash (button to left of right shift key button)
 
 
-// console.log(10 % 5);
-// console.log(10 % 6);
+console.log(10 % 5);
+console.log(10 % 6);
 
-// let myMultipleNum = 2 
+let myMultipleNum = 2 
 
 // console.log(2 % myMultipleNum)
 // console.log(7 % myMultipleNum)
-// console.log(2002 % myMultipleNum)
+//console.log(2002 % myMultipleNum)
 // console.log(2001 % myMultipleNum)
-// console.log(15 % myMultipleNum)
+//console.log(15 % myMultipleNum)
 
 
-// let str1 = "Hello " + "World"
-// console.log(str1);
+//let str1 = "Hello " + "World"
+//console.log(str1);
 
 // console.log("Hello" + " " + "World"); //another way to do this
 
@@ -31,7 +31,7 @@
 // console.log(`Hello ${bigStr} World`)
 
 // console.log(helloStr + 1);
-// console.log("1" + 1);
+console.log("1" + 1);
 
 let mySum = 1 + 1
 console.log("The sum is " + mySum) 
@@ -69,20 +69,29 @@ else {
 }
 
 
-// let password = "test"
-// let input = prompt("Enter password") //propmt gets user input and saves it to input variable
+isEven = 11 % myEvenNum == 0
+if (isEven) {
+    console.log("The number is even");
+}
 
-// let isPassCorrect = input == password
-// console.log("Is the password correct?:" + isPassCorrect);
+else {
+    console.log("The number is odd");
+}
+
+let password = "test"
+let input = prompt("Enter password") //propmt gets user input and saves it to input variable
+
+let isPassCorrect = input == password
+console.log("Is the password correct?:" + isPassCorrect);
 
 
-// if (isPassCorrect) {
-//     alert("Password is correct")
-// } 
+if (isPassCorrect) {
+    alert("Password is correct")
+} 
 
-// else {
-//     alert("Password is incorrect")
-// }
+else {
+    alert("Password is incorrect")
+}
 
 // let fTemp = 213
 // let celsiusTemp;
@@ -114,4 +123,12 @@ else {
 
 function clickme() {
     alert("The button was clicked")
+}
+
+let myNum = 0
+
+function increaseClicks() {
+    ++myNum
+    console.log(myNum);
+    
 }
