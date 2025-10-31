@@ -172,11 +172,16 @@ function clickme(){
 function increase() {
     ++clicknumber
     alert(clicknumber)
+
+    document.getElementById("paragraph").textContent = clicknumber
 }
 
 function decrease(){
     --clicknumber
     alert(clicknumber)
+    
+    document.getElementById("paragraph").textContent = clicknumber
+
 }
 
 function checkEvenOrOdd()
